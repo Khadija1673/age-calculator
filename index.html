@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="d-flex vh-100 justify-content-center align-items-center flex-column">
+    <form class="border rounded shadow w-40 p-5">
+        <h1 class="text-center mb-5">Age Calculator</h1>
+
+            <div class="mb-3 row fw-bold">
+                <h1 for="min" class="col-12 fw-bold col-form-label text-center">Enter your Date of Birth</h1>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-12">
+                  <input type="date" class="col-12 form-control text-center" id="dob" >
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="min" class="col-12 col-form-label fw-bold text-center">Current Date</label>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-12">
+                  <input type="date" class="form-control text-center" id="cd" >
+                </div>
+              </div>
+              <div class="text-center mb-3">
+                  <button class="btn btn-primary pill" id="button">Calculate</button>
+              </div>
+
+
+            <div class="result text-center fw-bold">
+                <p id="para"></p>
+            </div>
+            
+    </form>  
+    
+    <script src="./project.js"></script>
+  </body>
+</html>
